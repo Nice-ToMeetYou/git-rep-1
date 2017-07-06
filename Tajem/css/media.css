@@ -1,0 +1,83 @@
+@media screen and (max-width: 1024px) {
+	.about__right {
+		max-width: 50%;
+	}
+	.about__p {
+		padding-top: 15px;
+	}
+	.about__button {
+		margin-top: 20px;
+	}
+	.team {
+		height: 900px;
+		padding-top: 20px;
+	}
+	.team__title {height: 96px;}
+	.team__img {
+		width: 45%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+	.team__background {max-width: 100%;}
+	.contact__box { max-width: 100%}
+	.contact__left {max-width: 48%}
+	.contact__right {max-width: 48%}
+
+	.footer__box1 {display: none;}
+	.footer__background { height: 305px; padding-left: 80px;}
+}
+
+
+@media screen and (max-width: 640px) {
+	.header__button  {
+		margin-bottom: 65px;
+	}
+	.about {
+		width: 100%;
+		min-height: 550px;
+	}
+	.about__right {
+		max-width: 100%;
+		margin-top: 20px;
+	}
+	.expertise {height: 1050px;}
+	.expertise__box-item{height: 740px;}
+	.expertise__box-top {height: auto;}
+	.expertise__web, .expertise__made  {
+		width: 50%;
+		float: left;
+	}
+	.expertise__mobail, .expertise__search  {
+		width: 75%;
+		margin: 0 auto;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.expertise__brending, .expertise__game {
+		width: 50%;
+		float: right;
+	}
+	.team {
+		height: 900px;
+		padding-top: 20px;
+	}
+	.team__img {
+		width: 44%;
+		float: left;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.team__background {max-width: 100%;}
+	
+	.testi__background {height: 550px;}
+	.testi__text {margin-bottom:120px;}
+	.testi__pict {width: 100%;}
+	.testi__image {padding: 13px 9px;}
+	
+	.contact__left {max-width: 98%;}
+	.contact__right {max-width: 100%;}
+
+	.footer__box1 {display: block;}
+	.footer__background { height: 605px; padding-left: 30px; float: left; }
+}
